@@ -24,17 +24,24 @@ class Movies extends React.Component {
       .then(response => response.data)
       .then(data => {
         this.setState({
-					image: data.poster,
-					title: data.title,
-					synopsys: data.synopsys,
+					image: data.movies[0].poster,
+					title: data.movies[0].title,
+					synopsis: data.movies[0].synopsis,
           
         });
-			});		
+			});	
+				
 	}
+	
 	render() {
-		return (<div>
-			<button>test</button>
-		</div>)
+		return (
+		<div>
+			
+			<img src={this.state.image} style={{width:'20%'}}></img>
+			<p>{this.state.title}</p>
+			<p>{this.state.synopsis}</p>
+		</div>
+		)
 	}
 
 

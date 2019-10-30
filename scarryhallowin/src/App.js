@@ -1,11 +1,11 @@
 import React from 'react';
-import PopupMovie from './Components/PopupMovie'
 import './App.css';
+import MovieCards from './Components/MovieCards';
 
 function App() {
   return (
     <div className="App">
-      <PopupMovie />
+
     </div>
   );
 }

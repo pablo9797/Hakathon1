@@ -1,5 +1,6 @@
 import React from 'react';
 import Popup from 'reactjs-popup';
+import ContactCard from './ContactCard';
 import './Popup.css';
 
 /* Pour test
@@ -18,11 +19,11 @@ const PopupMovie = (props) => (
     {close => (
       <div>
         test text
-        <h3 className='Popup-title'>{original_title}</h3>
-        <h4 className='Popup-year'>{production_year}</h4>
-        <p className='Popup-director'><span>Réalisateur : </span>{director}</p>
-        <p className='Popup-synopsis'><span>Résumé : </span>{synopsis}</p>
-        <p>{trailer}</p>
+        <h3 className='Popup-title'>{ContactCard.title}</h3>
+        <h4 className='Popup-year'>{ContactCard.year}</h4>
+        <p className='Popup-director'><span>Réalisateur : </span>{ContactCard.director}</p>
+        <p className='Popup-synopsis'><span>Résumé : </span>{ContactCard.synopsis}</p>
+        <p><img src={ContactCard.trailer}/></p>
         <a className="Pop-close" onClick={close}>
           &times;
         </a>

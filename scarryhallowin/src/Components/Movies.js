@@ -31,15 +31,8 @@ class Movies extends React.Component {
     axios
       .get('https://api.betaseries.com/movies/search?key=b33f5713e631&title=halloween')
       .then(response => response.data)
-      .then(data => {
-        this.setState({
-			
-			arrayMovies: data.movies,
-
-        });
-			});	
-				
-	}
+      .then(data => {this.setState({arrayMovies: data.movies});});	
+  }
 
 	getOneMovies() {
 		axios
@@ -73,7 +66,7 @@ class Movies extends React.Component {
 		console.log(this.state.arrayMovies)
 		
 		return (
-		<div>
+		<div style={{width:'100%'}}>
 			<Navbar getOneMovies={this.getOneMovies} getMovies={this.getMovies} searchField={this.searchField} input={this.state.input} />
 			<div className='MoviesContainer'>
 			{this.state.arrayMovies.map(this.listOfMovies)}

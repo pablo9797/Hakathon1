@@ -1,11 +1,10 @@
 .App {
+  display: flex;
 
   text-align: center;
-  background-color: grey;
-}
+  /* background-color: black; */
+  justify-content: space-around;
 
-.App-logo {
-  height: 40vmin;
 }
 
 .App-header {
@@ -20,4 +19,4 @@
 }
 
 
-}
+

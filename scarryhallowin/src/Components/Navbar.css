@@ -1,0 +1,15 @@
+.App-Buttons {
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  padding : 15px;
+  background-color: #282c34;
+}
+
+.navButton{
+  padding: 10px;
+  border-radius: 50px;
+  margin: 0 15px 0 15px;
+  border: none;
+  background-color: rgb(243, 142, 10);
+}

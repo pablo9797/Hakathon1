@@ -13,6 +13,7 @@ class Movies extends React.Component {
 		title: null,
 		synopsys: null,
 		arrayMovies: [],
+
 		input: ''				
 			
 		}

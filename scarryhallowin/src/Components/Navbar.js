@@ -14,7 +14,7 @@ const Navbar = (props) =>{
 
         
         </div>
-        <img src='http://ekladata.com/RVTBH1Fj5FrxVswfeyWQUd8jNRU.png' href='#' style={{width:'6%'}} ></img>
+        <img src='http://ekladata.com/RVTBH1Fj5FrxVswfeyWQUd8jNRU.png' href='#' style={{width:'6%', marginRight:'2rem'}} ></img>
       </div>
 
     );

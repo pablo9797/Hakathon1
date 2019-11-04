@@ -13,9 +13,7 @@ class Movies extends React.Component {
 		title: null,
 		synopsys: null,
 		arrayMovies: [],
-
-		input: ''				
-			
+		input: ''					
 		}
 		this.getMovies = this.getMovies.bind(this)
 		this.searchField=this.searchField.bind(this)
@@ -68,20 +66,12 @@ class Movies extends React.Component {
 		return (
 		<div style={{width:'100%'}}>
 			<Navbar getOneMovies={this.getOneMovies} getMovies={this.getMovies} searchField={this.searchField} input={this.state.input} />
+			<h1 className="top-title">Shudder</h1>
 			<div className='MoviesContainer'>
 			{this.state.arrayMovies.map(this.listOfMovies)}
-			
 			</div>
-			
-			
 		</div>
 		)
 	}
-
-
-
-
 }
-
-
 export default Movies

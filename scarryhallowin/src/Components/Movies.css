@@ -1,6 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Griffy|Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,900&display=swap');
+
 .MoviesContainer{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 120px;
 }
+.top-title{
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    font-size: 4.5em;
+    color:rgb(241, 236, 234);
+    letter-spacing: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    animation: blur 1s ease-out infinite;
+    text-shadow: 0px 0px 5px black, 0px 0px 7px #fff;
+  }
+  @keyframes blur {
+    from {
+      text-shadow:0px 0px 10px black,
+        0px 0px 10px rgb(245, 76, 9), 
+        0px 0px 25px rgb(245, 76, 9),
+        0px 0px 25px rgb(245, 76, 9),
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #7B96B8,
+        0px 0px 150px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px -10px 100px #7B96B8,
+        0px -10px 100px #7B96B8;
+    }
+  }
+

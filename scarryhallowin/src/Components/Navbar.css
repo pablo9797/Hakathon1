@@ -3,7 +3,11 @@
   justify-content: space-between ;
   align-items: center;
   padding : 15px;
-  background-color: #282c34;
+  background-color:rgb(50, 63, 72);
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
 }
 
 .navButton{
@@ -11,5 +15,12 @@
   border-radius: 50px;
   margin: 0 15px 0 15px;
   border: none;
-  background-color: rgb(243, 142, 10);
+  background-color: rgb(243, 145, 0);
+  cursor: pointer;
+  color:white;
+}
+
+.navButton:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(243, 145, 0);
 }

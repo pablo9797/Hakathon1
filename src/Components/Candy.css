@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.candy{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+
+}
+.CandyTittle{
+    width: 100%;
+    color: red;
+    height: 5rem;
+    font-size: 2rem;
+
+}
+.candy img{
+    width: 15rem;
+    height: 20rem;
+}
+#score{
+    border: 1px solid black
+}
+.confiseries{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}

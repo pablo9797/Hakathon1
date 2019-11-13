@@ -1,0 +1,21 @@
+.Card{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    
+    
+    color: rgb(255, 164, 45);
+    
+}
+
+.Picture{
+    height: 380px;
+    box-shadow: 2px 2px 25px rgb(255, 164, 45);
+}
+
+.fas{
+    margin-right: 20 px;
+    width: 15%;
+}
